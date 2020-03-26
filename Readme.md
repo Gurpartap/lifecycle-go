@@ -1,4 +1,4 @@
-# 🚴🏻‍♂️ Lifecycle – an application runtime framework for your Go apps
+# 🚴🏻‍♂️ Lifecycle – an application runtime framework for Go apps
 
 [![GoDoc](https://godoc.org/github.com/Gurpartap/lifecycle-go?status.svg)](https://pkg.go.dev/github.com/Gurpartap/lifecycle-go)
 
@@ -115,6 +115,8 @@ This package takes a [considerable amount of inspiration](https://github.com/ube
 If you're also looking for dependency injection along with an application framework similar to Lifecycle, use fx. 
 
 Lifecycle aims for compile-time type safety while also being open to use of any dependency injection method.
+
+Lifecycle depends on [github.com/pkg/errors](https://github.com/pkg/errors) and [go.uber.org/multierr](https://github.com/uber-go/multierr) for error handling.
 
 ## About
 
