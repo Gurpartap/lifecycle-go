@@ -26,9 +26,9 @@ go get -u https://github.com/Gurpartap/lifecycle-go
 import "github.com/Gurpartap/lifecycle-go"
 ```
 
-## Examples
+## Usage
 
-See examples/cmd/web and examples/cmd/cron-jobs for detailed usage.
+See [_example/cmd/web](https://github.com/Gurpartap/lifecycle-go/blob/master/_example/cmd/web/main.go) and [_example/cmd/cron-jobs](https://github.com/Gurpartap/lifecycle-go/blob/master/_example/cmd/cron-jobs/main.go) for detailed usage examples.
 
 ```go
 package main
